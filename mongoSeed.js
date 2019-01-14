@@ -53,7 +53,7 @@ const connect = connection;
 connect.then(() => {
     let listingArray = [];
     let data;
-
+    
     let adder = () => {
         listingArray = [];
         console.log('the counter and max are: ', creationCounter, max)
@@ -88,3 +88,4 @@ connect.then(() => {
     console.log('Here we go!')
     // console.log('Done. Added ', creationCounter, ' listings into the listings database & ', imageMax, ' images into the images database!')
 })
+//CMD line tool to create csv:mongoimport -d helensMongoCarousel -c listings --type csv --file helensListings.csv --headerline
