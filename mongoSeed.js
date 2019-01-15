@@ -34,7 +34,7 @@ let listingsDB;
 let imagesCreator = () => {
     let imagesArray = [];
     for(let i = 0; i < 1000; i++){
-        let imgCount = Math.floor(Math.random() * 3) + 8;
+        let imgCount = Math.floor(Math.random() * 3.00) + 8;
         let imageSet = []
         for(let j = 0; j < imgCount; j++){
             let url = sampleStaticData[Math.floor(Math.random() * Math.floor(20))];

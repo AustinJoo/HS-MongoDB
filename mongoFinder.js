@@ -6,7 +6,7 @@ const connection = client.connect();
 let searchID;
 
 let finder = (id, callback) => {
-    // console.log(' this is the id: ', id)
+    console.log(' this is the id: ', id)
     searchID = id;
     const connect = connection
     connect.then(() => {
