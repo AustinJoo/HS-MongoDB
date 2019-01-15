@@ -1,1 +1,1 @@
-# HS-MongoDB
+Populator function to seed database and enter 10M data entries using MongoDB. Stripped all other components of original project to have only populator function and all components involved in this process only
