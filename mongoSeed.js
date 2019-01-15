@@ -28,13 +28,15 @@ const sampleStaticData = ['file:///Users/helenjsoh/Desktop/HS-images/CarouselPic
 let creationCounter = 0; 
 let adderNum = 150000;
 let max = 150000;
-let imgCount = Math.floor(Math.random() * 3) + 8;
+let db;
+let listingsDB;
 
-let imagesCreator = (maxNum) => {
+let imagesCreator = () => {
     let imagesArray = [];
     for(let i = 0; i < 1000; i++){
+        let imgCount = Math.floor(Math.random() * 3) + 8;
         let imageSet = []
-        for(let j = 0; j < maxNum; j++){
+        for(let j = 0; j < imgCount; j++){
             let url = sampleStaticData[Math.floor(Math.random() * Math.floor(20))];
             let caption = faker.lorem.sentence();
             image = {
@@ -47,13 +49,13 @@ let imagesCreator = (maxNum) => {
     }
     return imagesArray;
 }
-let imagePool = imagesCreator(imgCount);
+let imagePool = imagesCreator();
 
 const connect = connection;
 connect.then(() => {
     let listingArray = [];
     let data;
-    
+
     let adder = () => {
         listingArray = [];
         console.log('the counter and max are: ', creationCounter, max)
@@ -66,8 +68,8 @@ connect.then(() => {
             listingArray.push(data);
             creationCounter++;
         }
-        let db = client.db('helensMongoCarousel');
-        let listingsDB = db.collection('listings');
+        db = client.db('helensMongoCarousel');
+        listingsDB = db.collection('listings');
         listingsDB.insertMany(listingArray, (err, data) => {
             if (err) {
                 console.log('Could not save listing data', err);
@@ -88,4 +90,3 @@ connect.then(() => {
     console.log('Here we go!')
     // console.log('Done. Added ', creationCounter, ' listings into the listings database & ', imageMax, ' images into the images database!')
 })
-//CMD line tool to create csv:mongoimport -d helensMongoCarousel -c listings --type csv --file helensListings.csv --headerline
