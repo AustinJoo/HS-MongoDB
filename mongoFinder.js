@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const uri = 'mongodb://@18.220.171.207' 
+const uri = 'mongodb://@52.14.101.160' 
 || 
 'mongodb://localhost:27017/helensMongoCarousel';
 const client = new MongoClient(uri);
