@@ -6,7 +6,7 @@ const faker = require('faker');
 
 const sampleStaticData = ['http://www.manglamgroup.com/wp-content/uploads/2015/11/aangan-prime-Sample-Villa-12.jpg',
 'http://kesieuthi.top/wp-content/uploads/2018/08/sample-interior-design-small-living-room-prepossessing-sample-living-room-color-schemes-home-interiors-catalog-2017.jpg',
-'http://www.bostoncondoloft.com/87hnm_cdn/we/living-room-interior-design-for-a-small-house-home_modern-house-and-floor-plans.jpg',
+'http://www.bostoncondoloft.com/87hnm_cdn/mo/open-plan-living-space-and-broken_modern-house-and-floor-plans-700x450.jpg',
 'http://www.nativeasthma.org/ldk_cdn/li/living-rooms-designs-small-space-home-design-ideas-cool-interior_inspired-living-room.jpg',
 'http://candiceloper.info/wp-content/uploads/2018/07/small-house-ideas-interior-interesting-inspiration-design-sample-medieval-designs-for-indian-homes.jpg',
 'http://www.whitehouse51.com/pic/i1.wp.com/nikura.co/wp-content/uploads/2017/05/cool-design-sample-interior-for-small-house-philippines-3-awesome-living-room-ideas-houses.jpg?resize=800%2C553',
@@ -29,7 +29,12 @@ const sampleStaticData = ['http://www.manglamgroup.com/wp-content/uploads/2015/1
 'https://triangleosaka.club/wp-content/uploads/2018/12/bedroom-decor-ideas-for-small-rooms-home-interior-design-photos-india-flawless-contemporary-designs-appealing-by.jpg',
 'http://jotlive.co/wp-content/uploads/2018/08/home-interior-design-ideas-kitchen-elegant-teal-cabinets-inspirational-kitchens-sample-designs-india.jpg',
 'http://www.odeliabydesign.com/assets/marvelous-modern-tv-furniture-designs-modern-living-room-tv-furniture-zab-living.jpg',
-'http://www.ethnodoc.org/portrait/CitiLights-The-Helux.jpg']
+'http://www.ethnodoc.org/portrait/CitiLights-The-Helux.jpg',
+'http://www.bostoncondoloft.com/87hnm_cdn/mo/loft-living-room-ideas-fresh-house-plans-with-upstairs-modern_modern-house-and-floor-plans-700x450.jpg',
+'http://www.bostoncondoloft.com/87hnm_cdn/co/design-modern-house-interior-ideas-daily-home-and_modern-house-and-floor-plans-700x450.jpg',
+'http://www.bostoncondoloft.com/87hnm_cdn/mi/living-room-minimalist-modern-apartment-design-ideas_modern-house-and-floor-plans-700x450.jpg',
+'http://www.bostoncondoloft.com/87hnm_cdn/me/mediterranean-interior-design-pictures-illustrated-guide-to-home_modern-house-and-floor-plans-700x450.jpg',
+'http://www.bostoncondoloft.com/87hnm_cdn/4%20/stunning-story-n-style-san-francisco-home_modern-house-and-floor-plans-700x450.jpg']
 let creationCounter = 0; 
 let adderNum = 150000;
 let max = 150000;
