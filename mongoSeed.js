@@ -13,7 +13,6 @@ const sampleStaticData = ['http://www.manglamgroup.com/wp-content/uploads/2015/1
 'http://www.effmu.com/2/2015/08/natural-elegant-design-of-the-living-room-tv-wall-design-that-has-wooden-floor-can-be-decor-with-white-sofas-that-can-add-the-beauty-inside-the-modern-living.jpg',
 'http://4.bp.blogspot.com/-wmaR3zRS2qg/T8BC6VPAsrI/AAAAAAAAAb4/fSugQzBRlMg/s1600/HomeInteriorCatalog3.jpg',
 'http://kesieuthi.top/wp-content/uploads/2018/08/sample-interior-design-small-living-room-large-size-of-living-room-stimulating-small-sample-and-kitchen-sample-home-interiors-candles-holders.jpg',
-'http://www.croatianwine.org/vj7/re/custom-luxury-kitchen-designs-that-cost-more-than_kitchen-decoration.jpg',
 'https://www.tfod.in/UserProfileImages/ArticleImage/9i25HXGwbc14ccbb_6.jpg',
 'https://teaworthy.com/wp-content/uploads/2018/10/home-interior-design-samples-sample-bedroom-designs-elegant-interior-design-samples-beautiful-best-set.jpg',
 'http://artsample.blogs.eprevue.net/wp-content/uploads/sites/71/2019/01/bedroom-set.jpg',
