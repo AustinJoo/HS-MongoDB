@@ -7,7 +7,6 @@ const faker = require('faker');
 const sampleStaticData = ['http://www.manglamgroup.com/wp-content/uploads/2015/11/aangan-prime-Sample-Villa-12.jpg',
 'http://kesieuthi.top/wp-content/uploads/2018/08/sample-interior-design-small-living-room-prepossessing-sample-living-room-color-schemes-home-interiors-catalog-2017.jpg',
 'http://www.bostoncondoloft.com/87hnm_cdn/mo/open-plan-living-space-and-broken_modern-house-and-floor-plans-700x450.jpg',
-'http://www.nativeasthma.org/ldk_cdn/li/living-rooms-designs-small-space-home-design-ideas-cool-interior_inspired-living-room.jpg',
 'http://candiceloper.info/wp-content/uploads/2018/07/small-house-ideas-interior-interesting-inspiration-design-sample-medieval-designs-for-indian-homes.jpg',
 'http://www.whitehouse51.com/pic/i1.wp.com/nikura.co/wp-content/uploads/2017/05/cool-design-sample-interior-for-small-house-philippines-3-awesome-living-room-ideas-houses.jpg?resize=800%2C553',
 'http://www.effmu.com/2/2015/08/natural-elegant-design-of-the-living-room-tv-wall-design-that-has-wooden-floor-can-be-decor-with-white-sofas-that-can-add-the-beauty-inside-the-modern-living.jpg',
