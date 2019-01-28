@@ -6,8 +6,7 @@ const faker = require('faker');
 
 const sampleStaticData = ['http://www.manglamgroup.com/wp-content/uploads/2015/11/aangan-prime-Sample-Villa-12.jpg',
 'http://kesieuthi.top/wp-content/uploads/2018/08/sample-interior-design-small-living-room-prepossessing-sample-living-room-color-schemes-home-interiors-catalog-2017.jpg',
-'http://www.bostoncondoloft.com/87hnm_cdn/mo/open-plan-living-space-and-broken_modern-house-and-floor-plans-700x450.jpg',
-'http://candiceloper.info/wp-content/uploads/2018/07/small-house-ideas-interior-interesting-inspiration-design-sample-medieval-designs-for-indian-homes.jpg',
+'https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/6/27/0/FOD18_Connie-Vernich_Black-Casual-Kitchen_1.jpg.rend.hgtvcom.616.462.suffix/1530128538803.jpeg',
 'http://www.whitehouse51.com/pic/i1.wp.com/nikura.co/wp-content/uploads/2017/05/cool-design-sample-interior-for-small-house-philippines-3-awesome-living-room-ideas-houses.jpg?resize=800%2C553',
 'http://www.effmu.com/2/2015/08/natural-elegant-design-of-the-living-room-tv-wall-design-that-has-wooden-floor-can-be-decor-with-white-sofas-that-can-add-the-beauty-inside-the-modern-living.jpg',
 'http://4.bp.blogspot.com/-wmaR3zRS2qg/T8BC6VPAsrI/AAAAAAAAAb4/fSugQzBRlMg/s1600/HomeInteriorCatalog3.jpg',
@@ -28,11 +27,14 @@ const sampleStaticData = ['http://www.manglamgroup.com/wp-content/uploads/2015/1
 'http://jotlive.co/wp-content/uploads/2018/08/home-interior-design-ideas-kitchen-elegant-teal-cabinets-inspirational-kitchens-sample-designs-india.jpg',
 'http://www.odeliabydesign.com/assets/marvelous-modern-tv-furniture-designs-modern-living-room-tv-furniture-zab-living.jpg',
 'http://www.ethnodoc.org/portrait/CitiLights-The-Helux.jpg',
-'http://www.bostoncondoloft.com/87hnm_cdn/mo/loft-living-room-ideas-fresh-house-plans-with-upstairs-modern_modern-house-and-floor-plans-700x450.jpg',
-'http://www.bostoncondoloft.com/87hnm_cdn/co/design-modern-house-interior-ideas-daily-home-and_modern-house-and-floor-plans-700x450.jpg',
-'http://www.bostoncondoloft.com/87hnm_cdn/mi/living-room-minimalist-modern-apartment-design-ideas_modern-house-and-floor-plans-700x450.jpg',
-'http://www.bostoncondoloft.com/87hnm_cdn/me/mediterranean-interior-design-pictures-illustrated-guide-to-home_modern-house-and-floor-plans-700x450.jpg',
-'http://www.bostoncondoloft.com/87hnm_cdn/4%20/stunning-story-n-style-san-francisco-home_modern-house-and-floor-plans-700x450.jpg']
+'https://getpaidforyourpad.com/wp-content/uploads/2015/05/Preparing-your-home-.png',
+'https://imgs.6sqft.com/wp-content/uploads/2016/04/26203615/Rockaway-boatel-14.jpg',
+'https://cdn-images-1.medium.com/max/1600/0*OoKoeNTirxRQ2Z_i.',
+'https://www.blogtrepreneur.com/wp-content/uploads/2015/04/Depositphotos_18716457_s.jpg',
+'https://cdn-images-1.medium.com/max/1200/0*hbNmS4yoqafHNwmS.',
+'http://static.trip101.com/paragraph_media/pictures/000/142/698/large/abb50edd-05a6-4e06-b279-24c4fbb6d925.jpg?1493891724',
+'https://cityrelay.com/wp-content/uploads/2017/07/lilooreussiunphotoshop-copie-4.png',
+'https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1461339710/engage-guests-HOST0416.jpg?itok=X5cxjUio']
 let creationCounter = 0; 
 let adderNum = 150000;
 let max = 150000;
