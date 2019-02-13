@@ -1,3 +1,4 @@
+# MongoDB Seeder Function
 This repo contains the information for a populator function meant to establish a connection to and load a MongoDB with 10 million document entries for retrieval. Look below for steps on how to properly use the functions found within this repo.
 
 ## Steps
