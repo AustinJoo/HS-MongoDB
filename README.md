@@ -1,7 +1,5 @@
 This repo contains the information for a populator function meant to establish a connection to and load a MongoDB with 10 million document entries for retrieval. Look below for steps on how to properly use the functions found within this repo.
 
-**Note**: There is a mongoFinder.js file located in this repo. The server-database connection established within this file is an already existing database that has been deployed through AWS. If you would like to create a new Mongo database using this repo and connect to that it directly, you must change the uri within the mongoFinder function.
-
 ## Steps
   1) Create a service to run instance
       - Ubuntu 18.04 recommended 
@@ -19,5 +17,7 @@ This repo contains the information for a populator function meant to establish a
       - If database "helensMongoCarousel" exists, run command "use helensMongoCarousel" (You are on the right track)
     - Run command "show collections" to see list of collections
       - If collection "listings" exists, run command "db.listings.count()" and if a number greater than 10M logs, you are done!
-    - Note: You can also run command "db.listings.findOne({_ _ _ id: [enterID]}) to find a particular document
-    
+
+## Notes
+ - There is a mongoFinder.js file located in this repo. The server-database connection established within this file is an already existing database that has been deployed through AWS. If you would like to create a new Mongo database using this repo and connect to that it directly, you must change the uri within the mongoFinder function.
+ - You can also run command "db.listings.findOne({_id: [enterID]})" at the mongoDB command line to find a particular document
