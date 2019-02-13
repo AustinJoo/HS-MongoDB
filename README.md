@@ -22,6 +22,7 @@ This repo contains the information for a populator function meant to establish a
       - If database "helensMongoCarousel" exists, run command "use helensMongoCarousel" (You are on the right track)
     - Run command "show collections" to see list of collections
       - If collection "listings" exists, run command "db.listings.count()" and if a number greater than 10M logs, you are done!
+  10) Run command "mongod --bind_ip 0.0.0.0" to allow for outside access to the database and you are done!
 
 ## Notes
  - There is a mongoFinder.js file located in this repo. The server-database connection established within this file is an already existing database that has been deployed through AWS. If you would like to create a new Mongo database using this repo and connect to that it directly, you must change the uri within the mongoFinder function.
