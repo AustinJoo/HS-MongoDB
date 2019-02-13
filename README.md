@@ -1,7 +1,11 @@
 # MongoDB Seeder Function
 This repo contains the information for a populator function meant to establish a connection to and load a MongoDB with 10 million document entries for retrieval. Look below for steps on how to properly use the functions found within this repo.
 
-## Steps
+## Setup
+- **Dependencies**
+  - Node for web
+  - MongoDB for database
+- **Setup steps**
   1) Create a service to run instance
       - Ubuntu 18.04 recommended 
   2) Allow traffic on ports 22 (SSH) and 27017 (Default Mongo Port)
